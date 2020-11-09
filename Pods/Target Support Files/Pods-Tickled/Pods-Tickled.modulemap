@@ -1,0 +1,6 @@
+framework module Pods_Tickled {
+  umbrella header "Pods-Tickled-umbrella.h"
+
+  export *
+  module * { export * }
+}

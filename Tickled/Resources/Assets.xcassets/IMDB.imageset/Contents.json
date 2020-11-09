@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "tumblr_inline_nrvrnfIALM1rk1lvi_1280.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "tumblr_inline_nrvrnfIALM1rk1lvi_1280-1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "tumblr_inline_nrvrnfIALM1rk1lvi_1280-2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

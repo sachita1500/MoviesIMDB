@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (5.4.0)
+  - SDWebImage (5.8.4):
+    - SDWebImage/Core (= 5.8.4)
+  - SDWebImage/Core (5.8.4)
+  - ViewAnimator (3.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - SDWebImage
+  - ViewAnimator
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - SDWebImage
+    - ViewAnimator
+
+SPEC CHECKSUMS:
+  Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
+  SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
+  ViewAnimator: dd18d2f5c1e472f78d0065ff92750fe56cbd2f39
+
+PODFILE CHECKSUM: 24003864304ed018e9679983eae6101ef999689f
+
+COCOAPODS: 1.9.3

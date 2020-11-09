@@ -3,18 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EB727D47F0CB4F79AD4817A /* Pods_Tickled.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C73CEF2C2DB9BDD96F9125 /* Pods_Tickled.framework */; };
+		12A27ED1A6762EA8AE69DF72 /* Pods_Tickled_TickledUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 589D982B3C8D49FC41BD5851 /* Pods_Tickled_TickledUITests.framework */; };
+		3F85C11D2559BC00007F426C /* ButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85C11C2559BC00007F426C /* ButtonExtensions.swift */; };
 		3FB1EA472556870E001737EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1EA462556870E001737EC /* AppDelegate.swift */; };
 		3FB1EA492556870E001737EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1EA482556870E001737EC /* SceneDelegate.swift */; };
 		3FB1EA4B2556870E001737EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1EA4A2556870E001737EC /* ViewController.swift */; };
-		3FB1EA4E2556870E001737EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB1EA4C2556870E001737EC /* Main.storyboard */; };
 		3FB1EA5025568717001737EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB1EA4F25568717001737EC /* Assets.xcassets */; };
-		3FB1EA5325568717001737EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB1EA5125568717001737EC /* LaunchScreen.storyboard */; };
 		3FB1EA5E25568717001737EC /* TickledTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1EA5D25568717001737EC /* TickledTests.swift */; };
 		3FB1EA6925568717001737EC /* TickledUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1EA6825568717001737EC /* TickledUITests.swift */; };
+		3FB1EA892556AC1F001737EC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1EA882556AC1F001737EC /* NetworkManager.swift */; };
+		3FB1EA912556AD3A001737EC /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1EA902556AD3A001737EC /* Movies.swift */; };
+		3FB1EAA52556C76C001737EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB1EA5125568717001737EC /* LaunchScreen.storyboard */; };
+		3FB1EAA92556C770001737EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB1EA4C2556870E001737EC /* Main.storyboard */; };
+		3FB1EAAE2556D19A001737EC /* MovieCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1EAAD2556D19A001737EC /* MovieCollectionViewController.swift */; };
+		3FB1EAB52556D2AB001737EC /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1EAB42556D2AB001737EC /* MovieCollectionViewCell.swift */; };
+		3FB1EAC72556D7C4001737EC /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1EAC62556D7C4001737EC /* PinterestLayout.swift */; };
+		3FB1EADE2557C76B001737EC /* TansitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1EADD2557C76B001737EC /* TansitionAnimation.swift */; };
+		3FB1EAEE2557DBFB001737EC /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1EAED2557DBFB001737EC /* MovieDetailViewController.swift */; };
+		3FB1EB0025581DDE001737EC /* StarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1EAFF25581DDE001737EC /* StarRatingView.swift */; };
+		F9656C21AB03FF934BEC3F66 /* Pods_TickledTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97BBCEAAC360E61ACBF1BFDD /* Pods_TickledTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A7D406B456CED028D686FF0 /* Pods-Tickled.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tickled.debug.xcconfig"; path = "Target Support Files/Pods-Tickled/Pods-Tickled.debug.xcconfig"; sourceTree = "<group>"; };
+		3F85C11C2559BC00007F426C /* ButtonExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonExtensions.swift; sourceTree = "<group>"; };
 		3FB1EA432556870E001737EC /* Tickled.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tickled.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB1EA462556870E001737EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FB1EA482556870E001737EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +63,22 @@
 		3FB1EA6425568717001737EC /* TickledUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TickledUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB1EA6825568717001737EC /* TickledUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickledUITests.swift; sourceTree = "<group>"; };
 		3FB1EA6A25568717001737EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB1EA882556AC1F001737EC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3FB1EA902556AD3A001737EC /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		3FB1EAAD2556D19A001737EC /* MovieCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewController.swift; sourceTree = "<group>"; };
+		3FB1EAB42556D2AB001737EC /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		3FB1EAC62556D7C4001737EC /* PinterestLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+		3FB1EADD2557C76B001737EC /* TansitionAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TansitionAnimation.swift; sourceTree = "<group>"; };
+		3FB1EAED2557DBFB001737EC /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		3FB1EAFF25581DDE001737EC /* StarRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarRatingView.swift; sourceTree = "<group>"; };
+		4CF6FA5CA8880F996567AD4E /* Pods-TickledTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TickledTests.debug.xcconfig"; path = "Target Support Files/Pods-TickledTests/Pods-TickledTests.debug.xcconfig"; sourceTree = "<group>"; };
+		532F0567E5DA29E0FA65FDFF /* Pods-Tickled-TickledUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tickled-TickledUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tickled-TickledUITests/Pods-Tickled-TickledUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		589D982B3C8D49FC41BD5851 /* Pods_Tickled_TickledUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tickled_TickledUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E012FC7C5D533F48F0B89C1 /* Pods-TickledTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TickledTests.release.xcconfig"; path = "Target Support Files/Pods-TickledTests/Pods-TickledTests.release.xcconfig"; sourceTree = "<group>"; };
+		65C73CEF2C2DB9BDD96F9125 /* Pods_Tickled.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tickled.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97BBCEAAC360E61ACBF1BFDD /* Pods_TickledTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TickledTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B35900BE0DE1F799190740 /* Pods-Tickled-TickledUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tickled-TickledUITests.release.xcconfig"; path = "Target Support Files/Pods-Tickled-TickledUITests/Pods-Tickled-TickledUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DC20787488DBD6B572446E46 /* Pods-Tickled.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tickled.release.xcconfig"; path = "Target Support Files/Pods-Tickled/Pods-Tickled.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EB727D47F0CB4F79AD4817A /* Pods_Tickled.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9656C21AB03FF934BEC3F66 /* Pods_TickledTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +102,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12A27ED1A6762EA8AE69DF72 /* Pods_Tickled_TickledUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F85C118255995C1007F426C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3F85C11C2559BC00007F426C /* ButtonExtensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		3FB1EA3A2556870E001737EC = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +124,8 @@
 				3FB1EA5C25568717001737EC /* TickledTests */,
 				3FB1EA6725568717001737EC /* TickledUITests */,
 				3FB1EA442556870E001737EC /* Products */,
+				6F3FD7AD2DDAC9EFA1B2B3CB /* Pods */,
+				B439DCACC44EDAE01C99184A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +142,16 @@
 		3FB1EA452556870E001737EC /* Tickled */ = {
 			isa = PBXGroup;
 			children = (
-				3FB1EA462556870E001737EC /* AppDelegate.swift */,
-				3FB1EA482556870E001737EC /* SceneDelegate.swift */,
-				3FB1EA4A2556870E001737EC /* ViewController.swift */,
-				3FB1EA4C2556870E001737EC /* Main.storyboard */,
-				3FB1EA4F25568717001737EC /* Assets.xcassets */,
-				3FB1EA5125568717001737EC /* LaunchScreen.storyboard */,
+				3FB1EADC2557C737001737EC /* Animation */,
+				3FB1EA80255688BF001737EC /* Application */,
+				3FB1EA81255688DA001737EC /* Model */,
+				3FB1EA82255688E7001737EC /* Views */,
+				3FB1EA84255688F9001737EC /* Controller */,
+				3FB1EA872556ABE9001737EC /* Services */,
+				3FB1EAC42556D792001737EC /* Helpers */,
+				3F85C118255995C1007F426C /* Extension */,
+				3FB1EA852556AAEF001737EC /* Resources */,
+				3FB1EA862556ABA1001737EC /* Storyboards */,
 				3FB1EA5425568717001737EC /* Info.plist */,
 			);
 			path = Tickled;
@@ -128,6 +175,130 @@
 			path = TickledUITests;
 			sourceTree = "<group>";
 		};
+		3FB1EA80255688BF001737EC /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				3FB1EA462556870E001737EC /* AppDelegate.swift */,
+				3FB1EA482556870E001737EC /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		3FB1EA81255688DA001737EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FB1EA902556AD3A001737EC /* Movies.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3FB1EA82255688E7001737EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3FB1EAB22556D20C001737EC /* MovieCollectionCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3FB1EA84255688F9001737EC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3FB1EA4A2556870E001737EC /* ViewController.swift */,
+				3FB1EAAD2556D19A001737EC /* MovieCollectionViewController.swift */,
+				3FB1EAED2557DBFB001737EC /* MovieDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3FB1EA852556AAEF001737EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3FB1EA4F25568717001737EC /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3FB1EA862556ABA1001737EC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3FB1EA5125568717001737EC /* LaunchScreen.storyboard */,
+				3FB1EA4C2556870E001737EC /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3FB1EA872556ABE9001737EC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3FB1EA882556AC1F001737EC /* NetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3FB1EAB22556D20C001737EC /* MovieCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				3FB1EAB42556D2AB001737EC /* MovieCollectionViewCell.swift */,
+			);
+			path = MovieCollectionCell;
+			sourceTree = "<group>";
+		};
+		3FB1EAC42556D792001737EC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3FB1EAF925581C02001737EC /* StarRatings */,
+				3FB1EAC52556D7C4001737EC /* Layouts */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3FB1EAC52556D7C4001737EC /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				3FB1EAC62556D7C4001737EC /* PinterestLayout.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		3FB1EADC2557C737001737EC /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				3FB1EADD2557C76B001737EC /* TansitionAnimation.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		3FB1EAF925581C02001737EC /* StarRatings */ = {
+			isa = PBXGroup;
+			children = (
+				3FB1EAFF25581DDE001737EC /* StarRatingView.swift */,
+			);
+			path = StarRatings;
+			sourceTree = "<group>";
+		};
+		6F3FD7AD2DDAC9EFA1B2B3CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A7D406B456CED028D686FF0 /* Pods-Tickled.debug.xcconfig */,
+				DC20787488DBD6B572446E46 /* Pods-Tickled.release.xcconfig */,
+				532F0567E5DA29E0FA65FDFF /* Pods-Tickled-TickledUITests.debug.xcconfig */,
+				98B35900BE0DE1F799190740 /* Pods-Tickled-TickledUITests.release.xcconfig */,
+				4CF6FA5CA8880F996567AD4E /* Pods-TickledTests.debug.xcconfig */,
+				5E012FC7C5D533F48F0B89C1 /* Pods-TickledTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B439DCACC44EDAE01C99184A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65C73CEF2C2DB9BDD96F9125 /* Pods_Tickled.framework */,
+				589D982B3C8D49FC41BD5851 /* Pods_Tickled_TickledUITests.framework */,
+				97BBCEAAC360E61ACBF1BFDD /* Pods_TickledTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +306,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FB1EA6D25568717001737EC /* Build configuration list for PBXNativeTarget "Tickled" */;
 			buildPhases = (
+				D2696DF9C7A5965DB57C6E85 /* [CP] Check Pods Manifest.lock */,
 				3FB1EA3F2556870E001737EC /* Sources */,
 				3FB1EA402556870E001737EC /* Frameworks */,
 				3FB1EA412556870E001737EC /* Resources */,
+				620DD1D690F07F8754BE930C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +325,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FB1EA7025568717001737EC /* Build configuration list for PBXNativeTarget "TickledTests" */;
 			buildPhases = (
+				9A5E6AB0B1C0B712D41832ED /* [CP] Check Pods Manifest.lock */,
 				3FB1EA5525568717001737EC /* Sources */,
 				3FB1EA5625568717001737EC /* Frameworks */,
 				3FB1EA5725568717001737EC /* Resources */,
@@ -170,9 +344,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FB1EA7325568717001737EC /* Build configuration list for PBXNativeTarget "TickledUITests" */;
 			buildPhases = (
+				67433A2269C0A4B96C84F19C /* [CP] Check Pods Manifest.lock */,
 				3FB1EA6025568717001737EC /* Sources */,
 				3FB1EA6125568717001737EC /* Frameworks */,
 				3FB1EA6225568717001737EC /* Resources */,
+				DF3BCFB954702B97B8248DFE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +407,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FB1EA5325568717001737EC /* LaunchScreen.storyboard in Resources */,
+				3FB1EAA92556C770001737EC /* Main.storyboard in Resources */,
+				3FB1EAA52556C76C001737EC /* LaunchScreen.storyboard in Resources */,
 				3FB1EA5025568717001737EC /* Assets.xcassets in Resources */,
-				3FB1EA4E2556870E001737EC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +429,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		620DD1D690F07F8754BE930C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tickled/Pods-Tickled-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tickled/Pods-Tickled-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tickled/Pods-Tickled-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67433A2269C0A4B96C84F19C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tickled-TickledUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A5E6AB0B1C0B712D41832ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TickledTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2696DF9C7A5965DB57C6E85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tickled-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF3BCFB954702B97B8248DFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tickled-TickledUITests/Pods-Tickled-TickledUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tickled-TickledUITests/Pods-Tickled-TickledUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tickled-TickledUITests/Pods-Tickled-TickledUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3FB1EA3F2556870E001737EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB1EADE2557C76B001737EC /* TansitionAnimation.swift in Sources */,
+				3FB1EA912556AD3A001737EC /* Movies.swift in Sources */,
 				3FB1EA4B2556870E001737EC /* ViewController.swift in Sources */,
+				3FB1EA892556AC1F001737EC /* NetworkManager.swift in Sources */,
+				3FB1EB0025581DDE001737EC /* StarRatingView.swift in Sources */,
 				3FB1EA472556870E001737EC /* AppDelegate.swift in Sources */,
+				3FB1EAC72556D7C4001737EC /* PinterestLayout.swift in Sources */,
+				3FB1EAB52556D2AB001737EC /* MovieCollectionViewCell.swift in Sources */,
 				3FB1EA492556870E001737EC /* SceneDelegate.swift in Sources */,
+				3F85C11D2559BC00007F426C /* ButtonExtensions.swift in Sources */,
+				3FB1EAEE2557DBFB001737EC /* MovieDetailViewController.swift in Sources */,
+				3FB1EAAE2556D19A001737EC /* MovieCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +721,7 @@
 		};
 		3FB1EA6E25568717001737EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A7D406B456CED028D686FF0 /* Pods-Tickled.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,15 +731,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sachita.Tickled;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachita.MoviesIMDB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3FB1EA6F25568717001737EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC20787488DBD6B572446E46 /* Pods-Tickled.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,15 +750,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sachita.Tickled;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachita.MoviesIMDB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		3FB1EA7125568717001737EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CF6FA5CA8880F996567AD4E /* Pods-TickledTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +781,7 @@
 		};
 		3FB1EA7225568717001737EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E012FC7C5D533F48F0B89C1 /* Pods-TickledTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +803,7 @@
 		};
 		3FB1EA7425568717001737EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 532F0567E5DA29E0FA65FDFF /* Pods-Tickled-TickledUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +823,7 @@
 		};
 		3FB1EA7525568717001737EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98B35900BE0DE1F799190740 /* Pods-Tickled-TickledUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
