@@ -22,7 +22,7 @@ enum APIs: URLRequestConvertible  {
     
     // MARK:- variables
     static let endpoint = URL(string: "http://api.themoviedb.org/3")!
-    static let apiKey = "65753283a9e57638fb684c5cc8ec6a5f"
+    static let apiKey = ""
     static let contenType = "application/json;charset=utf-8"
     static let connection = "keep-alive"
     static var pageCount = 1
